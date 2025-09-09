@@ -23,6 +23,8 @@ The primary aims for this project were to use the Kaggle dataset to check for co
 
 After analysis, it was determined that there is a strong positve correlation (R=1) between fuel and CO2 emission. Additionaly, tanker ships emitted the most CO2 on average amongst all ship types. Moreover, using a t-test, it was found that there wasn't a signifcant difference (p=0.357 > 0.05) between CO2 emission between the two fuel types: diesel and HFO. This meant that there was no need to separate the data by fuel type. 
 
+---
+
 
 
 
