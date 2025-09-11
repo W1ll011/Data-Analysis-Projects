@@ -63,7 +63,7 @@ The aims of this project were to 1) build a dashboard that displays important sa
 
 ### Findings
 
-The data revealed that the most profitable sales channel, and store were: in-store, store #284 respectively. Sales team #18 sold the most products, while customer #12 bought the most. There were large differences in cost/selling price for the same Product ID, seeming to mean that the Product ID was not standard across the dataset, so any form product analysis was avoided.   
+The data revealed that the most profitable sales channel, and store were: in-store, store #284 respectively. Sales team #18 sold the most products, while customer #12 bought the most. There were large differences in cost/selling price for the same Product ID, seeming to mean that the Product ID was not standard across the dataset, so any form of product analysis was avoided. ANOVA revealed that there was no significant difference (p-value = 1) in the number of days to order fulfillment among the various warehouses. 
 
 
 
