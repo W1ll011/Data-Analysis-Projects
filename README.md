@@ -47,16 +47,24 @@ After analysis, it was determined that there is a strong positve correlation (R=
 ---
 ## Project 3: Analysis of US Regional Sales (2018-2020) 
 
-The aim of this project was to build a dashboard that displays important metrics derived from sales data.
+The aims of this project were to 1) build a dashboard that displays important sales metrics, 2) determine most profitable stores/sales channels/sales teams etc., and 3) determine any factors affecting sales  
 
 ### Methodology
 
-1. Import a Kaggle dataset into Power BI
-2. Transform data in Power Query
+1. Imported a Kaggle dataset into Power BI
+2. Transformed data in Power Query
+3. Created necessary Power BI measures (total revenue/loss/profit etc.)
+4. Created a combination of Python and Power BI charts for visualization and analysis
+5. Performed ANOVA and correlation analysis using Python 
 
 ### Example visuals
 
 <img width="867" height="478" alt="image" src="https://github.com/user-attachments/assets/29947939-d774-4e3a-8d5b-c057e0158f56" />
+
+### Findings
+
+The data revealed that the most profitable sales channel, and store were: in-store, store #284 respectively. Sales team #18 sold the most products, while customer #12 bought the most. There were large differences in cost/selling price for the same Product ID, seeming to mean that the Product ID was not standard across the dataset, so any form product analysis was avoided.   
+
 
 
 
