@@ -55,15 +55,21 @@ The aims of this project were to 1) build a dashboard that displays important sa
 2. Transformed data in Power Query
 3. Created necessary Power BI measures (total revenue/loss/profit etc.)
 4. Created a combination of Python and Power BI charts for visualization and analysis
-5. Performed ANOVA and correlation analysis using Python 
+5. Performed ANOVA using Python 
 
 ### Example visuals
 
 <img width="867" height="478" alt="image" src="https://github.com/user-attachments/assets/29947939-d774-4e3a-8d5b-c057e0158f56" />
 
+<img width="470" height="255" alt="image" src="https://github.com/user-attachments/assets/2aa5bac3-e5dc-40b7-8ca8-1079aa0b8485" />
+
+<img width="407" height="196" alt="image" src="https://github.com/user-attachments/assets/7494b026-8004-4779-b2f1-a39804e62b3e" />
+
+
+
 ### Findings
 
-The data revealed that the most profitable sales channel, and store were: in-store, store #284 respectively. Sales team #18 sold the most products, while customer #12 bought the most. There were large differences in cost/selling price for the same Product ID, seeming to mean that the Product ID was not standard across the dataset, so any form of product analysis was avoided. ANOVA revealed that there was no significant difference (p-value = 1) in the number of days to order fulfillment among the various warehouses. 
+The data revealed that the most profitable sales channel and store were: in-store and Store #284 respectively. Sales Team #18 sold the most products, while Customer #12 bought the most. There were large differences in cost/selling price for the same Product ID, seeming to mean that the Product ID was not standard across the dataset, so any form of product analysis was avoided. ANOVA revealed that there was no significant difference (p-value = 1) in the number of days to order fulfillment among the various warehouses. 
 
 
 
