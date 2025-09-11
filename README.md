@@ -32,13 +32,14 @@ The primary aims for this project were to use the Kaggle dataset to check for co
 4. Python was also used to perform t-tests
 
 ### Some Visuals
-<img width="614" height="477" alt="image" src="https://github.com/user-attachments/assets/0ab73b4c-b934-4a16-abbd-3b5d80987cc7" />
+<img width="930" height="517" alt="image" src="https://github.com/user-attachments/assets/1f85107d-8000-4827-ab70-7e1ac52bc2da" />
 
-<img width="414" height="204" alt="image" src="https://github.com/user-attachments/assets/e91450cb-3d27-4601-8049-87b6e5dcc852" />
+<img width="747" height="439" alt="image" src="https://github.com/user-attachments/assets/31b329b3-851d-42fa-8b6e-85511dcfc4d7" />
 
-<img width="391" height="202" alt="image" src="https://github.com/user-attachments/assets/f48015bd-ffe3-432e-be2d-8aee8db09f13" />
+<img width="796" height="467" alt="image" src="https://github.com/user-attachments/assets/a80de194-b2d5-4c21-99f2-2aea8da8913d" />
 
-<img width="372" height="223" alt="image" src="https://github.com/user-attachments/assets/e5ddd32c-6de3-4c36-80ac-a7b5b39e8ddc" />
+<img width="705" height="467" alt="image" src="https://github.com/user-attachments/assets/2f632691-f8e3-477b-a60b-09ead4e89e85" />
+
 
 ### Findings
 
@@ -61,17 +62,13 @@ The aims of this project were to 1) build a dashboard that displays important sa
 
 <img width="867" height="478" alt="image" src="https://github.com/user-attachments/assets/29947939-d774-4e3a-8d5b-c057e0158f56" />
 
+<img width="870" height="481" alt="image" src="https://github.com/user-attachments/assets/36343a0c-53aa-4c92-8548-8f0389b47a44" />
+
 <img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/f477c32a-4b6a-46df-be73-24c6a5778e75" />
-
-<img width="857" height="430" alt="image" src="https://github.com/user-attachments/assets/fec1e0c5-22aa-49d5-aba9-1dac25076fbf" />
-
-<img width="766" height="177" alt="image" src="https://github.com/user-attachments/assets/bfbd1f9c-d491-4d73-a388-abbe1dcf6606" />
-
-
 
 ### Findings
 
-The data revealed that the most profitable sales channel and store were **in-store** and **Store #284**, respectively. **Sales Team #18** sold the most products, while **Customer #12** bought the most. There were large differences in cost/selling price for the same Product ID, seeming to mean that the Product ID was not standard across the dataset, so any form of product analysis was avoided. ANOVA revealed that there was no significant difference **(p-value = 1)** in the number of days to order fulfillment among the various warehouses for online sales. 
+The data revealed that the most profitable sales channel and store were **in-store** and **Store #284**, respectively. **Sales Team #18** sold the most products, while **Customer #12** bought the most. There were large differences in cost/selling price for the same Product ID, seeming to mean that the Product ID was not standard across the dataset, so any form of product analysis was avoided.
 
 
 
