@@ -13,7 +13,7 @@ The aim of this project was to perform yield analysis on synthetic data of a 300
 4. Used Python to generate a wafer map to visualize failed die
 5. Created a few Power BI measures of common yield metrics
 
-### Example Visuals
+### Some Visuals
 
 <img width="752" height="408" alt="image" src="https://github.com/user-attachments/assets/d1c81f4a-b5a6-4dbe-8c8e-697c5056a0de" />
 
@@ -31,7 +31,7 @@ The primary aims for this project were to use the Kaggle dataset to check for co
 3. Used a combination of Power BI charts and Python scripts to visualize data
 4. Python was also used to perform t-tests
 
-### Example Visuals
+### Some Visuals
 <img width="614" height="477" alt="image" src="https://github.com/user-attachments/assets/0ab73b4c-b934-4a16-abbd-3b5d80987cc7" />
 
 <img width="414" height="204" alt="image" src="https://github.com/user-attachments/assets/e91450cb-3d27-4601-8049-87b6e5dcc852" />
@@ -42,12 +42,12 @@ The primary aims for this project were to use the Kaggle dataset to check for co
 
 ### Findings
 
-After analysis, it was determined that there is a strong positve correlation (R=1) between fuel and CO2 emission. Additionaly, tanker ships emitted the most CO2 on average amongst all ship types. Moreover, using a t-test, it was found that there wasn't a signifcant difference (p=0.357 > 0.05) between CO2 emission between the two fuel types: diesel and HFO. This meant that there was no need to separate the data by fuel type. 
+After analysis, it was determined that there is a strong positve correlation **(R=1)** between fuel and CO2 emission. Additionaly, tanker ships emitted the most CO2 on average amongst all ship types. Moreover, using a t-test, it was found that there wasn't a signifcant difference **(p=0.357 > 0.05)** between CO2 emission between the two fuel types: diesel and HFO. This meant that there was no need to separate the data by fuel type. 
 
 ---
 ## Project 3: Analysis of US Regional Sales (2018-2020) 
 
-The aims of this project were to 1) build a dashboard that displays important sales metrics, 2) determine most profitable stores/sales channels/sales teams etc., and 3) determine any factors affecting sales  
+The aims of this project were to 1) build a dashboard that displays important sales metrics, 2) determine most profitable stores/sales channels etc., and 3) determine any factors affecting sales  
 
 ### Methodology
 
@@ -57,19 +57,21 @@ The aims of this project were to 1) build a dashboard that displays important sa
 4. Created a combination of Python and Power BI charts for visualization and analysis
 5. Performed ANOVA using Python 
 
-### Example visuals
+### Some Visuals
 
 <img width="867" height="478" alt="image" src="https://github.com/user-attachments/assets/29947939-d774-4e3a-8d5b-c057e0158f56" />
 
-<img width="470" height="255" alt="image" src="https://github.com/user-attachments/assets/2aa5bac3-e5dc-40b7-8ca8-1079aa0b8485" />
+<img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/f477c32a-4b6a-46df-be73-24c6a5778e75" />
 
-<img width="407" height="196" alt="image" src="https://github.com/user-attachments/assets/7494b026-8004-4779-b2f1-a39804e62b3e" />
+<img width="857" height="430" alt="image" src="https://github.com/user-attachments/assets/fec1e0c5-22aa-49d5-aba9-1dac25076fbf" />
+
+<img width="766" height="177" alt="image" src="https://github.com/user-attachments/assets/bfbd1f9c-d491-4d73-a388-abbe1dcf6606" />
 
 
 
 ### Findings
 
-The data revealed that the most profitable sales channel and store were: in-store and Store #284 respectively. Sales Team #18 sold the most products, while Customer #12 bought the most. There were large differences in cost/selling price for the same Product ID, seeming to mean that the Product ID was not standard across the dataset, so any form of product analysis was avoided. ANOVA revealed that there was no significant difference (p-value = 1) in the number of days to order fulfillment among the various warehouses. 
+The data revealed that the most profitable sales channel and store were **in-store** and **Store #284**, respectively. **Sales Team #18** sold the most products, while **Customer #12** bought the most. There were large differences in cost/selling price for the same Product ID, seeming to mean that the Product ID was not standard across the dataset, so any form of product analysis was avoided. ANOVA revealed that there was no significant difference **(p-value = 1)** in the number of days to order fulfillment among the various warehouses for online sales. 
 
 
 
