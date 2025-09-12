@@ -7,7 +7,7 @@ The aim of this project was to perform yield analysis on synthetic data of a 300
 
 ### Methodology
 
-1. Prompted Microsoft Co-pilot to write a Python script that will simulate a typical dataset from a semiconductor fab that yield engineers would use to for visualization and analysis.
+1. Prompted Microsoft Co-pilot to write a Python script that would simulate a typical dataset from a semiconductor fab that yield engineers would use for visualization and analysis.
 2. Made modfications to script 
 3. Imported dataset into Power BI
 4. Used Python to generate a wafer map to visualize failed die
