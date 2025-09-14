@@ -19,6 +19,9 @@ The aim of this project was to perform yield analysis on synthetic data of a 300
 
 <img width="602" height="387" alt="image" src="https://github.com/user-attachments/assets/31b19fcc-e076-405c-851c-1e4572ee12d4" />
 
+<img width="761" height="516" alt="image" src="https://github.com/user-attachments/assets/3efd702c-e491-4d1a-91b9-1e9d04796d73" />
+
+
 
 ### Findings
 
