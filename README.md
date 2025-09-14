@@ -7,7 +7,7 @@ The aim of this project was to perform yield analysis on synthetic data of a 300
 
 ### Methodology
 
-1. Prompted Microsoft Co-pilot to write a Python script that would simulate a typical dataset from a semiconductor fab that yield engineers would use for visualization and analysis.
+1. Prompted Chat GPT to write a Python script that would simulate a typical dataset from a semiconductor fab that yield engineers would use for visualization and analysis.
 2. Made modfications to script 
 3. Imported dataset into Power BI
 4. Used Python to generate a wafer map to visualize failed die
@@ -15,9 +15,14 @@ The aim of this project was to perform yield analysis on synthetic data of a 300
 
 ### Some Visuals
 
-<img width="752" height="408" alt="image" src="https://github.com/user-attachments/assets/d1c81f4a-b5a6-4dbe-8c8e-697c5056a0de" />
+<img width="730" height="395" alt="image" src="https://github.com/user-attachments/assets/09bfe6cd-7f3a-465f-a3ff-fc15df28a3bd" />
 
-<img width="710" height="260" alt="image" src="https://github.com/user-attachments/assets/86c864d8-b45c-4cea-be08-5e28a16ba87e" />
+<img width="602" height="387" alt="image" src="https://github.com/user-attachments/assets/31b19fcc-e076-405c-851c-1e4572ee12d4" />
+
+
+### Findings
+
+The wafer had a low die yield of **47.83%**, with **521,664 DPM**. 
 
 
 
