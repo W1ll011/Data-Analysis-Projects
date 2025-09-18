@@ -33,7 +33,7 @@ The aim of this project was to perform yield analysis on synthetic data of a 300
 
 ### Findings
 
-The wafer had a die yield of **47.83%**, with **521,664 DPM**. By far, the most common cause of die failure was parametric: drain-source current (Idss) being larger than the set boundary of 1.00E-9 A. 
+The wafer had a die yield of **47.83%**, with **521,664 DPM**. By far, the most common cause of die failure was parametric: drain-source current (Idss) being larger than the set boundary of 1 nA. 
 
 
 
@@ -64,7 +64,7 @@ After analysis, it was determined that there is a strong positve correlation **(
 ---
 ## Project 3: Analysis of US Regional Sales 
 
-The aims of this project were to 1) build a dashboard that displays important sales metrics, 2) determine most profitable stores/sales channels etc., and 3) determine any factors affecting sales  
+The aims of this project were to build a dashboard that displays important sales metrics, and determine most profitable stores/sales channels etc.
 
 ### Methodology
 
