@@ -3,7 +3,7 @@ A repository containing a few of my data analysis projects
 
 [Yield Analysis using Synthetic Data](#project-1-yield-analysis-using-synthetic-data)
 
-[Ship Fuel Efficiency](#project-2-ship-fuel-efficiency) 
+[Ship Fuel and CO2 Emission](#project-2-ship-fuel-and-co2-emission) 
 
 [Analysis of US Regional Sales](#project-3-analysis-of-us-regional-sales)
 
@@ -38,7 +38,7 @@ The wafer had a die yield of **47.83%**, with **521,664 DPM**. By far, the most 
 
 
 ---
-## Project 2: Ship Fuel Efficiency
+## Project 2: Ship Fuel and CO2 Emission
 The primary aims for this project were to use the Kaggle dataset to check for correlation between fuel consumption and CO2 emission, check which ships produce most CO2, and any other of the given parameters that may affect CO2 emission. 
 
 ### Methodology
@@ -64,7 +64,7 @@ The primary aims for this project were to use the Kaggle dataset to check for co
 
 ### Findings
 
-Using Python, a t-test was performed and found that there was not a signifcant difference **(p=0.357 > alpha=0.05)** between CO2 emission between the two fuel types: diesel and HFO. For this t-test the data was filtered for a specific ship type, and for distances greater than 100 miles. Correlation analysis revealed a strong positve correlation **(R=1)** between fuel and CO2 emission. Moreover, it was calculated that tanker ships accounted for 59.03% of CO2 emission, on average, amongst the four ship types. This made sense as they are the largest of the various ships. A trendline revealed that voyages during the first half of the year, on average, produced more CO2 than trips during the second half. Further analysis, though, showed that majority of the miles occured during the first half of the year, so that's most likely the reason. ANOVA also revealed **(p= 0.654 > alpha =0.05; eta^2 = 0.002)** that there was no significant difference for CO2 emission amongst the various weather conditions for tanker ships. 
+Using Python, a t-test was performed and found that there was not a signifcant difference **(p=0.357 > alpha=0.05)** between CO2 emission between the two fuel types: diesel and HFO. For this t-test the data was filtered for a specific ship type, and for distances greater than 100 miles. Correlation analysis revealed a strong positve correlation **(R=1)** between fuel and CO2 emission. Moreover, it was calculated that tanker ships accounted for 59.03% of CO2 emission, on average, amongst the four ship types. This made sense as they are the largest of the various ships. A line graph revealed that voyages during the first half of the year, on average, produced more CO2 than trips during the second half. Further analysis, though, showed that majority of the miles occured during the first half of the year, so that's most likely the reason. ANOVA also revealed **(p= 0.654 > alpha =0.05; eta^2 = 0.002)** that there was no significant difference for CO2 emission amongst the various weather conditions for tanker ships. 
 
 ---
 ## Project 3: Analysis of US Regional Sales 
