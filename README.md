@@ -39,7 +39,7 @@ The wafer had a die yield of **47.83%**, with **521,664 DPM**. By far, the most 
 
 ---
 ## Project 2: Ship Fuel Efficiency
-The primary aims for this project were to use the Kaggle dataset to check for correlation between fuel consumption and CO2 emission, check which ships produce most CO2, and any other parameters that may affect CO2 emission. 
+The primary aims for this project were to use the Kaggle dataset to check for correlation between fuel consumption and CO2 emission, check which ships produce most CO2, and any other of the given parameters that may affect CO2 emission. 
 
 ### Methodology
 1. Imported a Kaggle dataset into Power BI
@@ -50,16 +50,21 @@ The primary aims for this project were to use the Kaggle dataset to check for co
 ### Some Visuals
 <img width="930" height="517" alt="image" src="https://github.com/user-attachments/assets/1f85107d-8000-4827-ab70-7e1ac52bc2da" />
 
-<img width="747" height="439" alt="image" src="https://github.com/user-attachments/assets/31b329b3-851d-42fa-8b6e-85511dcfc4d7" />
+<img width="933" height="515" alt="image" src="https://github.com/user-attachments/assets/4ca76169-a900-4917-9078-f24e4998c22c" />
 
 <img width="796" height="467" alt="image" src="https://github.com/user-attachments/assets/a80de194-b2d5-4c21-99f2-2aea8da8913d" />
 
 <img width="705" height="467" alt="image" src="https://github.com/user-attachments/assets/2f632691-f8e3-477b-a60b-09ead4e89e85" />
 
+<img width="901" height="99" alt="image" src="https://github.com/user-attachments/assets/8ed167e1-e8ea-4615-83e2-372e16815bf1" /> 
+
+
+
+
 
 ### Findings
 
-After analysis, it was determined that there is a strong positve correlation **(R=1)** between fuel and CO2 emission. Additionaly, tanker ships emitted the most CO2 on average amongst all ship types. Moreover, using a t-test, it was found that there wasn't a signifcant difference **(p=0.357 > 0.05)** between CO2 emission between the two fuel types: diesel and HFO. This meant that there was no need to separate the data by fuel type. 
+Using Python, a t-test was performed and found that there was not a signifcant difference **(p=0.357 > alpha=0.05)** between CO2 emission between the two fuel types: diesel and HFO. For this t-test the data was filtered for a specific ship type, and for distances greater than 100 miles. Correlation analysis revealed a strong positve correlation **(R=1)** between fuel and CO2 emission. Moreover, it was calculated that tanker ships accounted for 59.03% of CO2 emission, on average, amongst the four ship types. This made sense as they are the largest of the various ships. A trendline revealed that voyages during the first half of the year, on average, produced more CO2 than trips during the second half. Further analysis, though, showed that majority of the miles occured during the first half of the year, so that's most likely the reason. ANOVA also revealed **(p= 0.654 > alpha =0.05; eta^2 = 0.002)** that there was no significant difference for CO2 emission amongst the various weather conditions for tanker ships. 
 
 ---
 ## Project 3: Analysis of US Regional Sales 
