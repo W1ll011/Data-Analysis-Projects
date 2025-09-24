@@ -9,15 +9,16 @@ A repository containing a few of my data analysis projects
 
 ## Project 1: Yield Analysis using Synthetic Data
 
-The aim of this project was to perform yield analysis on synthetic data of a 300 mm wafer over 31 days of manufacturing. 
+The dataset for this project contains synthetic data for a 300 mm wafer (containing 576 useable die) over 31 days of manufacturing in a fab. Present in the dataset are key electrical measures & test results, environmental variables, die location co-ordinates, and more.  The aim of this project was to perform yield visualization and analysis to determine potential causes for die failures.
 
 ### Methodology
 
-1. Prompted Chat GPT to write a Python script that would simulate a typical dataset from a semiconductor fab that yield engineers would use for visualization and analysis.
-2. Made modfications to script 
+1. Prompted Chat GPT to write a Python script that would simulate a typical dataset from a semiconductor fab 
+2. Made modifications script 
 3. Imported dataset into Power BI
-4. Used Python to generate a wafer map to visualize failed die
-5. Created a few Power BI measures of common yield metrics
+4. Created useful Power BI measures from data
+5. Built a dashboard to display key overall yield metrics
+6. Analyzed source(s) of die failure
 
 ### Some Visuals
 
@@ -33,7 +34,7 @@ The aim of this project was to perform yield analysis on synthetic data of a 300
 
 ### Findings
 
-The wafer had a die yield of **47.83%**, with **521,664 DPM**. By far, the most common cause of die failure was parametric: drain-source current (Idss) being larger than the set boundary of 1 nA. 
+The wafer had an overall die yield of **47.83%**, with **521,664 DPM**. By far, the most common cause of die failure was parametric: drain-source current (Idss) being larger than the chosen boundary of 1 nA. 
 
 
 
