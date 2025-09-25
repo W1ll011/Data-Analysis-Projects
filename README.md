@@ -18,7 +18,7 @@ The dataset for this project contains synthetic data for a 300 mm wafer (contain
 3. Imported dataset into Power BI
 4. Created useful Power BI measures from data
 5. Built a dashboard to display key overall yield metrics
-6. Analyzed source(s) of die failure
+6. Analyzed data for potential source(s) of die failure
 
 ### Some Visuals
 
@@ -64,7 +64,7 @@ The dataset for this project contains ship fuel consumption and CO2 emission inf
 
 To determine wheter it was necessary to split and analyze the data based on the two fuel types (HFO and diesel), a t-test was performed using **alpha = 0.05**. A **p-value of 0.357** was calculated, and thus it was concluded that there not a significant difference for CO2 emission based on fuel type. For this t-test the data was filtered for a specific ship type, and for distances greater than 100 miles.
 
-Correlation analysis indeed revealed a strong positve correlation **(R=1)** between fuel and CO2 emission. Tanker ships accounted for 61.16% of total CO2 emission amongst the four ship types. This made sense as they are the largest of the various ships. A line graph revealed that voyages during the first half of the year, produced more CO2 than trips during the second half. One likely contributing factor for that, though, is that 8,640 more miles were traveled during the first half of the year. ANOVA also revealed **(p= 0.654 > alpha= 0.05; eta^2= 0.002)** that there was no significant difference for CO2 emission amongst the various weather conditions for tanker ships. 
+Correlation analysis indeed revealed a strong positve correlation **(R=1)** between fuel and CO2 emission. Tanker ships accounted for 61.16% of total CO2 emission amongst the four ship types. This made sense given they are the largest of the ships. A line graph revealed that voyages during the first half of the year, produced more CO2 than trips during the second half. One likely contributing factor for that, though, is that 8,640 more miles were traveled during the first half of the year. ANOVA also revealed **(p= 0.654 > alpha= 0.05; eta^2= 0.002)** that there was no significant difference for CO2 emission amongst the various weather conditions for tanker ships. 
 
 ---
 ## Project 3: Analysis of US Regional Sales 
