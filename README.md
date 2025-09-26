@@ -32,9 +32,11 @@ The dataset for this project contains synthetic data for a 300 mm wafer (contain
 
 <img width="748" height="512" alt="image" src="https://github.com/user-attachments/assets/d40be9a2-a07c-4498-9664-97fba987fcd8" />
 
-### Findings
+### Findings and Analysis
 
 The wafer had an overall die yield of **47.83%**, with **521,664 DPM**. By far, the most common cause of die failure was parametric: drain-source current (Idss) being larger than the chosen boundary of 1 nA. 
+
+The wafer was divided into 12 30 degree sectors to aid in anaylzying defect location. Sector 8 contained the fewest failures (17), whilst Sector 4 had the most with 33 - all parametric. The 13 physical defects were spread across 7 sectors, with Sector 6 having the most (5). There was a crack in this sector, which can be what led to the oxide defect, contamination and short circuits. All sectors contained a minimum of 15 parametric failures.  
 
 
 
