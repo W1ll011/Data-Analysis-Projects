@@ -24,9 +24,15 @@ The dataset for this project contains synthetic data for a 300 mm wafer (contain
 
 <img width="730" height="395" alt="image" src="https://github.com/user-attachments/assets/09bfe6cd-7f3a-465f-a3ff-fc15df28a3bd" />
 
+<img width="723" height="378" alt="image" src="https://github.com/user-attachments/assets/88e0ac70-a0c6-4ea9-8d37-62193c7fd9e8" />
+
+<img width="584" height="370" alt="image" src="https://github.com/user-attachments/assets/3e9d2466-d9bb-4b05-bab3-d21304909872" />
+
 <img width="631" height="394" alt="image" src="https://github.com/user-attachments/assets/01dfc2fc-aa01-4e07-aedf-87c7e35ce281" />
 
 <img width="761" height="516" alt="image" src="https://github.com/user-attachments/assets/3efd702c-e491-4d1a-91b9-1e9d04796d73" />
+
+<img width="758" height="521" alt="image" src="https://github.com/user-attachments/assets/928017df-30eb-40f7-8c4e-aa0e4743405a" />
 
 <img width="749" height="507" alt="image" src="https://github.com/user-attachments/assets/57a332e4-ffae-47fe-a90d-df1d318a1522" />
 
@@ -34,9 +40,9 @@ The dataset for this project contains synthetic data for a 300 mm wafer (contain
 
 ### Findings and Analysis
 
-The wafer had an overall die yield of **47.83%**, with **521,664 DPM**. By far, the most common cause of die failure was parametric: drain-source current (Idss) being larger than the chosen boundary of 1 nA. 
+The wafer had an overall die yield of **90.64%**, with **93,587.52 DPM**. By far, the most common cause of die failure was parametric: drain-source current (Idss) being larger than the chosen boundary of 1 nA. 
 
-The wafer was divided into 12 30 degree sectors to aid in anaylzying defect location. Sector 8 contained the fewest failures (17), whilst Sector 4 had the most with 33 - all parametric. The 13 physical defects were spread across 7 sectors, with Sector 6 having the most (5). There was a crack in this sector, which can be what led to the oxide defect, contamination and short circuits. All sectors contained a minimum of 15 parametric failures.  
+The wafer was divided into 12 30 degree sectors to aid in analyzing defect location. Sector 8 contained the fewest failures (17), whilst Sector 4 had the most with 33 - all parametric. The 13 physical defects were spread across 7 sectors, with Sector 6 having the most (5). There was a crack in this sector, which can be what led to the oxide defect, contamination and short circuits. All sectors contained a minimum of 15 parametric failures.  
 
 
 
