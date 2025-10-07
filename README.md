@@ -9,34 +9,23 @@ A repository containing a few of my data analysis projects
 
 ## Project 1: Yield Analysis using Synthetic Data
 
-The dataset for this project contains synthetic data for a 300 mm wafer (containing 576 useable die) over 31 days of manufacturing in a fab. Present in the dataset are key electrical measures & test results, environmental variables, die location co-ordinates, and more.  The aim of this project was to perform yield visualization and analysis to determine potential causes for die failures.
+The dataset for this project simulates wafer-sort data for the fabrication of power MOSFETs on a 300 mm wafer. Present in the dataset are key electrical measures & test results, environmental variables, die location co-ordinates, and more.  The aim of this project was to perform yield visualization and analysis to determine potential causes for die failures.
 
 ### Methodology
 
-1. Prompted Chat GPT to write a Python script that would simulate a typical dataset from a semiconductor fab 
-2. Made modifications script 
+1. Prompted Chat GPT to write a Python script that would simulate a typical dataset from a semiconductor fab at the wafer-sort level for power MOSFETs 
+2. Made continuous modifications script to improve realism/accuracy
 3. Imported dataset into Power BI
 4. Created useful Power BI measures from data
-5. Built a dashboard to display key overall yield metrics
+5. Built a dashboard to display wafer map and key overall yield metrics
 6. Analyzed data for potential source(s) of die failure
 
 ### Some Visuals
 
-<img width="730" height="395" alt="image" src="https://github.com/user-attachments/assets/09bfe6cd-7f3a-465f-a3ff-fc15df28a3bd" />
+<img width="728" height="395" alt="image" src="https://github.com/user-attachments/assets/315d5b13-d5d1-4665-bace-255f2812fb5c" />
 
-<img width="723" height="378" alt="image" src="https://github.com/user-attachments/assets/88e0ac70-a0c6-4ea9-8d37-62193c7fd9e8" />
+<img width="761" height="522" alt="image" src="https://github.com/user-attachments/assets/8eaf027c-86a7-44b4-9082-70481f5baa9d" />
 
-<img width="584" height="370" alt="image" src="https://github.com/user-attachments/assets/3e9d2466-d9bb-4b05-bab3-d21304909872" />
-
-<img width="631" height="394" alt="image" src="https://github.com/user-attachments/assets/01dfc2fc-aa01-4e07-aedf-87c7e35ce281" />
-
-<img width="761" height="516" alt="image" src="https://github.com/user-attachments/assets/3efd702c-e491-4d1a-91b9-1e9d04796d73" />
-
-<img width="758" height="521" alt="image" src="https://github.com/user-attachments/assets/928017df-30eb-40f7-8c4e-aa0e4743405a" />
-
-<img width="749" height="507" alt="image" src="https://github.com/user-attachments/assets/57a332e4-ffae-47fe-a90d-df1d318a1522" />
-
-<img width="748" height="512" alt="image" src="https://github.com/user-attachments/assets/d40be9a2-a07c-4498-9664-97fba987fcd8" />
 
 ### Findings and Analysis
 
