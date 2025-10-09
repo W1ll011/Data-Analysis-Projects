@@ -29,7 +29,7 @@ The dataset for this project simulates wafer-sort data for the fabrication of po
 
 ### Findings and Analysis
 
-The wafer had an overall die yield of **90.64%**, with **93,587.52 DPM**. By far, the most common cause of die failure was parametric: drain-source current (Idss) being larger than the chosen boundary of 1 nA. 
+The wafer had an overall die yield of **87.81%**, with **121,856.87 DPM**. The most common cause of die failure (9.76%) was parametric: high off-state leakage current (Ioff) (chosen limit: 2,000 nA). 
 
 The wafer was divided into 12 30 degree sectors to aid in analyzing defect location. Sector 8 contained the fewest failures (17), whilst Sector 4 had the most with 33 - all parametric. The 13 physical defects were spread across 7 sectors, with Sector 6 having the most (5). There was a crack in this sector, which can be what led to the oxide defect, contamination and short circuits. All sectors contained a minimum of 15 parametric failures.  
 
