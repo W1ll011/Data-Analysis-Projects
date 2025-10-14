@@ -29,11 +29,14 @@ The dataset for this project simulates wafer-sort data for the fabrication of po
 
 ### Findings and Analysis
 
-The wafer had an overall die yield of **87.81%**, with **121,856.87 DPM**. The most common cause of die failure (9.76%) was parametric: high off-state leakage current (Ioff) (chosen limit: 2,000 nA). 
+The wafer had an overall die yield of **87.81%**, with **121,856.87 DPM**. Failures were classified as either primarily functional (physical) or parametric. 9.67% of failures were parametric, while only 2.51 % were functional. Within the parametric category, the most common failure (40 occurences) was high off-state leakage current (Ioff) (chosen limit: 2,000 nA). 
+
+It should be noted that, in some cases, physical defects were followed by parametric failures. The dataset has a record of all failure occurences for a given die; however, once a physical defect was detected, the code automatically categorized that failure as physical.
 
 The wafer was divided into 12 30 degree sectors to aid in analyzing defect location. Sector 8 contained the fewest failures (17), whilst Sector 4 had the most with 33 - all parametric. The 13 physical defects were spread across 7 sectors, with Sector 6 having the most (5). There was a crack in this sector, which can be what led to the oxide defect, contamination and short circuits. All sectors contained a minimum of 15 parametric failures.  
 
-
+To get to potential root cause(s) of the Ioff failures, python was used to run a few checks/tests. 
+The same probe card, chemical lot and environmental conditions were used for all dies, so those were ruled out as potential sources of failure. A strong positive correlation (R=0.89) was found between Ioff and Idss. Sector #11 had the most Ioff failures with nine (9). The Ioff failures mentioned were also not due to physical defects.
 
 ---
 ## Project 2: Ship Fuel and CO2 Emission
