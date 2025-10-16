@@ -33,10 +33,10 @@ The wafer had an overall die yield of **87.81%**, with **121,856.87 DPM**. Failu
 
 It should be noted that, in some cases, physical defects were followed by parametric failures. The dataset has a record of all failure occurences for a given die; however, once a physical defect was detected, the code automatically categorized that failure as a physical failure first.
 
-The wafer was divided into 12 30 degree sectors to aid in analyzing defect location. Sector 8 contained the fewest failures (17), whilst Sector 4 had the most with 33 - all parametric. The 13 physical defects were spread across 7 sectors, with Sector 6 having the most (5). There was a crack in this sector, which can be what led to the oxide defect, contamination and short circuits. All sectors contained a minimum of 15 parametric failures.  
+The wafer was divided into 12 30 degree sectors to aid in analyzing defect location. Sector #11 had the most with 11 parametric failures, while Sectors #8 and #9 contained the fewest with 3 each.
 
 To get to potential root cause(s) of the Ioff failures, python was used to run a few checks/tests. 
-The same probe card, chemical lot and environmental conditions were used for all dies, so those were ruled out as potential sources of failure. A strong positive correlation (R=0.89) was found between Ioff and Idss. Sector #11 had the most Ioff failures with nine (9). The Ioff failures mentioned were also not due to physical defects.
+The same probe card, chemical lot and environmental conditions were used for all dies, so those were ruled out as potential sources of failure. A strong positive correlation (R=0.89) was found between Ioff and Idss. There were 8 times (11 with physical defect present) where a die only had Idss and Ioff failures (so maybe not same thing causing both). Sector #11 had the most Ioff failures with nine (9). The Ioff failures mentioned were also not due to physical defects. Ioff limit selected is plausible for common discrete power mosfets. 
 
 ---
 ## Project 2: Ship Fuel and CO2 Emission
