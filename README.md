@@ -29,16 +29,16 @@ The dataset for this project simulates wafer-sort data for the fabrication of po
 
 ### Findings and Analysis
 
-The wafer had an overall die yield of **87.81%**, with **121,856.87 DPM**. Failures were classified as either primarily functional (physical) or parametric. 9.67% of failures were parametric, while only 2.51% were functional. Within the parametric category, the most common failure (40 occurences) was high off-state leakage current (Ioff). 
+The wafer had an overall die yield of **87.81%**, with **121,856.87 DPM**. Failures were classified as either primarily functional (physical) or parametric. 9.67% of failures were parametric, while only 2.51% were functional. Within the parametric category, the most common failure (40 occurences) was high off-state leakage current (I_off). 
 
 It should be noted that, in some cases, a given die had both physical and parametric defects. The dataset has a record of all failure occurences for a given die; however, once a physical defect was detected, the code automatically categorized that failure as a physical failure first.
 
-Location: The wafer was divided into twelve (12) 30-degree sectors to aid in analyzing defect location. Sector #11 had the most with 11 parametric failures, while Sectors #8 and #9 contained the fewest with 3 each. Sector #11 had the most Ioff failures with nine (9). 
+Location: The wafer was divided into twelve (12) 30-degree sectors to aid in analyzing defect location. Sector #11 had the most with 11 parametric failures, while Sectors #8 and #9 contained the fewest with 3 each. Sector #11 had the most I_off failures with nine (9). 
 
-Correlation: A strong positive correlation (R=0.89) was found between Ioff and Idss. There were 8 times (11 with physical defect present) where a die only had Idss and Ioff failures (so maybe not same thing causing both)
+Correlation: A strong positive correlation (R=0.89) was found between Ioff and Idss. There were 8 times (11 with physical defect present) where a die only had I_dss and I_off failures (so maybe not same thing causing both)
 
-Physical: The Ioff failures mentioned were also not due to physical defects. There were 4 die with both physical defects and Ioff failures.
-Chosen limit:  Ioff limit selected (2,000 nA) is plausible for common discrete power mosfets. 
+Physical: The I_off failures mentioned were also not due to physical defects. There were 4 die with both physical defects and I_off failures.
+Chosen limit:  I_off limit selected (2,000 nA) is plausible for common discrete power mosfets. 
 
 The same probe card, chemical lot and environmental conditions were used for all dies, so those were likely not the sources of failure. 
 
