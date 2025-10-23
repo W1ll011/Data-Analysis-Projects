@@ -1,13 +1,13 @@
 # Data Analysis Projects
 A repository containing a few of my data analysis projects
 
-[Yield Analysis using Synthetic Data](#project-1-yield-analysis-using-synthetic-data)
+[Yield Analysis using Synthetic Wafer Sort Data](#project-1-yield-analysis-using-synthetic-wafer-sort-data)
 
 [Ship Fuel and CO2 Emission](#project-2-ship-fuel-and-co2-emission) 
 
 [Analysis of US Regional Sales](#project-3-analysis-of-us-regional-sales)
 
-## Project 1: Yield Analysis using Synthetic Data
+## Project 1: Yield Analysis using Synthetic Wafer Sort Data
 
 The dataset for this project simulates wafer-sort data for the fabrication of power MOSFETs on a 300 mm wafer. Present in the dataset are key electrical measures & test results, environmental variables, die location co-ordinates, and more.  The aim of this project was to perform yield visualization and analysis to determine potential causes for die failures.
 
