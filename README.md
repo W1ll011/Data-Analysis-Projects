@@ -31,18 +31,17 @@ The dataset for this project simulates wafer-sort data for the fabrication of po
 
 ### Findings and Analysis
 
-The wafer had an overall die yield of **87.81%**, with **121,856.87 DPM**. Failures were classified as either primarily functional (physical) or parametric. 9.67% of failures were parametric, while only 2.51% were functional. Within the parametric category, the most common failure (40 occurences) was high off-state leakage current (I_off). 
+The wafer had an overall die yield of 87.81%, with 121,856.87 DPM. Failures were classified as either primarily functional (physical) or parametric. 9.67% of failures were parametric, while only 2.51% were functional. Within the parametric category, the most common failure type was high off-state leakage current (I_off). Thus, the focus of this analysis was finding potential root causes for the I_off failures.  
 
-It should be noted that, in some cases, a given die had both physical and parametric defects. The dataset has a record of all failure occurences for a given die; however, once a physical defect was detected, the code automatically categorized that failure as a physical failure first.
+Given the device being fabricated is a power MOSFET, the code was configured to flag any occurrence of I_off above 2,000 nA – a suitable limit for this device. 
 
-Location: The wafer was divided into twelve (12) 30-degree sectors to aid in analyzing defect location. Sector #11 had the most with 11 parametric failures, while Sectors #8 and #9 contained the fewest with 3 each. Sector #11 had the most I_off failures with nine (9). 
+There were 40 dies with solely I_off failures, and 4 dies with I_off failures accompanied by physical defects. This suggests that physical defects did not have a profound effect on I_off failures for this wafer.
 
-Correlation: A strong positive correlation (R=0.89) was found between Ioff and Idss. There were 8 times (11 with physical defect present) where a die only had I_dss and I_off failures (so maybe not same thing causing both)
+The wafer was divided into twelve (12) 30-degree sectors to aid in analyzing defect location. Sector #11 had the most with 11 parametric failures. Visual inspection of the the wafer map, though, did not reveal any obvious failure hot spots.  
 
-Physical: The I_off failures mentioned were also not due to physical defects. There were 4 die with both physical defects and I_off failures.
-Chosen limit:  I_off limit selected (2,000 nA) is plausible for common discrete power mosfets. 
+A strong positive correlation (**Pearson r = 0.89, Spearman ρ = 0.86, n = 517, p < 0.001**) was calculated between I_off and I_dss (log10-transformed values). Further investigation, though, revealed that there were only 8 dies with only I_dss and I_off failures present, so that isn’t sufficient evidence to say that the failures are linked – especially as, overall, there were more I_off failures than I_dss. 
 
-The same probe card, chemical lot and environmental conditions were used for all dies, so those were likely not the sources of failure. 
+Environmental and test hardware variables (ambient conditions, chemical lot, probe card) were constant for this single-wafer run; therefore, are not likely root causes for within-wafer variablity. 
 
 ---
 ## Project 2: Ship Fuel and CO2 Emission
