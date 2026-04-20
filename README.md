@@ -24,7 +24,7 @@ The dataset for this project simulates wafer-sort data for the fabrication of po
 
 ### Some Visuals
 
-<img width="728" height="395" alt="image" src="https://github.com/user-attachments/assets/315d5b13-d5d1-4665-bace-255f2812fb5c" />
+<img width="728" height="395" alt="image" src="https://github.com/user-attachments/assets/315d5b13-d5d1-4665-bace-255f2812fb5c" /> <br>
 
 
 <img width="761" height="522" alt="image" src="https://github.com/user-attachments/assets/8eaf027c-86a7-44b4-9082-70481f5baa9d" />
@@ -55,19 +55,19 @@ The dataset for this project contains ship fuel consumption and CO2 emission inf
 4. Performed statistical tests like correlation, t-tests, and ANOVA
 
 ### Some Visuals
-<img width="930" height="517" alt="image" src="https://github.com/user-attachments/assets/1f85107d-8000-4827-ab70-7e1ac52bc2da" />
+<img width="930" height="517" alt="image" src="https://github.com/user-attachments/assets/1f85107d-8000-4827-ab70-7e1ac52bc2da" /> <br>
 
 
-<img width="894" height="504" alt="image" src="https://github.com/user-attachments/assets/f29f961d-c9c0-4924-b006-227d0e807141" />
+<img width="894" height="504" alt="image" src="https://github.com/user-attachments/assets/f29f961d-c9c0-4924-b006-227d0e807141" /> <br>
 
 
-<img width="880" height="478" alt="image" src="https://github.com/user-attachments/assets/33441c98-fc38-4927-87f1-2be799d10fa0" />
+<img width="880" height="478" alt="image" src="https://github.com/user-attachments/assets/33441c98-fc38-4927-87f1-2be799d10fa0" /> <br>
 
 
-<img width="705" height="467" alt="image" src="https://github.com/user-attachments/assets/2f632691-f8e3-477b-a60b-09ead4e89e85" />
+<img width="705" height="467" alt="image" src="https://github.com/user-attachments/assets/2f632691-f8e3-477b-a60b-09ead4e89e85" /> <br>
 
 
-<img width="901" height="99" alt="image" src="https://github.com/user-attachments/assets/8ed167e1-e8ea-4615-83e2-372e16815bf1" /> 
+<img width="901" height="99" alt="image" src="https://github.com/user-attachments/assets/8ed167e1-e8ea-4615-83e2-372e16815bf1" />
 
 
 ### Findings and Analysis 
@@ -91,7 +91,7 @@ The aims of this project were to build a dashboard that displays important sales
 
 ### Some Visuals
 
-<img width="870" height="481" alt="image" src="https://github.com/user-attachments/assets/36343a0c-53aa-4c92-8548-8f0389b47a44" />
+<img width="870" height="481" alt="image" src="https://github.com/user-attachments/assets/36343a0c-53aa-4c92-8548-8f0389b47a44" /> <br>
 
 
 <img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/f477c32a-4b6a-46df-be73-24c6a5778e75" />
