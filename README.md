@@ -1,6 +1,8 @@
 # Data Analysis Projects
 A repository containing a few of my data analysis projects
 
+## Project List:
+
 [Yield Analysis using Synthetic Wafer Sort Data](#project-1-yield-analysis-using-synthetic-wafer-sort-data)
 
 [Ship Fuel and CO2 Emission](#project-2-ship-fuel-and-co2-emission) 
