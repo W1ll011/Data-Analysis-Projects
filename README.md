@@ -16,7 +16,7 @@ The dataset for this project simulates wafer-sort data for the fabrication of po
 ### Methodology
 
 1. Prompted Chat GPT to write a Python script that would simulate a typical dataset from a semiconductor fab at the wafer-sort level for power MOSFETs 
-2. Made continuous modifications script to improve realism/accuracy
+2. Made continuous modifications to script to improve realism/accuracy
 3. Imported dataset into Power BI
 4. Created useful Power BI measures from data
 5. Built a dashboard to display wafer map and key overall yield metrics
@@ -34,7 +34,7 @@ The dataset for this project simulates wafer-sort data for the fabrication of po
 
 The wafer had an overall die yield of 87.81%, with 121,856.87 DPM. Failures were classified as either primarily functional (physical) or parametric. 9.67% of failures were parametric, while only 2.51% were functional. Within the parametric category, the most common failure type was high off-state leakage current (I_off). Thus, the focus of this analysis was finding potential root causes for the I_off failures.  
 
-Given the device being fabricated is a power MOSFET, the code was configured to flag any occurrence of I_off above 2,000 nA – a suitable limit for this device. 
+Given that the device being fabricated is a power MOSFET, the code was configured to flag any occurrence of I_off above 2,000 nA – a suitable limit for this device. Fifty-two (52) dies were found to have an I_off failure. Of those 52 dies, 4 with accompanied by a physical defect, and 8 were accompanied by a drain-to-source leakage current (I_dss) failure.
 
 There were 40 dies with solely I_off failures, and 4 dies with I_off failures accompanied by physical defects. This suggests that physical defects did not have a profound effect on I_off failures for this wafer.
 
