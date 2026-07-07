@@ -20,27 +20,25 @@ The dataset for this project simulates wafer-sort data for the fabrication of po
 3. Imported dataset into Power BI
 4. Created useful Power BI measures from data
 5. Built a dashboard to display wafer map and key overall yield metrics
-6. Analyzed data for potential source(s) of die failure
+6. Analyzed data in Python and Power BI for potential source(s) of die failure
 
 ### Some Visuals
 
-<img width="728" height="395" alt="image" src="https://github.com/user-attachments/assets/315d5b13-d5d1-4665-bace-255f2812fb5c" /> <br>
+<img width="830" height="461" alt="image" src="https://github.com/user-attachments/assets/3360839c-76b3-49ee-9471-beeee6b60569" />
 
-
-<img width="761" height="522" alt="image" src="https://github.com/user-attachments/assets/8eaf027c-86a7-44b4-9082-70481f5baa9d" />
+<img width="800" height="479" alt="image" src="https://github.com/user-attachments/assets/7c0ccc88-b402-4d70-9dca-703b63d741f1" />
 
 
 ### Findings and Analysis
 
-The wafer had an overall die yield of 87.81%, with 121,856.87 DPM. Failures were classified as either primarily functional (physical) or parametric. 9.67% of failures were parametric, while only 2.51% were functional. Within the parametric category, the most common failure type was high off-state leakage current (I_off). Thus, the focus of this analysis was finding potential root causes for the I_off failures.  
+The wafer had an overall die yield of 93.23% (482/517), with 67,698.26 DPM. Failures were classified as either primarily functional (physical) or parametric. 4.06% of failures were parametric, while only 2.71% were functional. Within the parametric category, the most common failure type was high drain-source leakage current (Idss). 
 
-Given that the device being fabricated is a power MOSFET, the code was configured to flag any occurrence of I_off above 2,000 nA – a suitable limit for this device. Fifty-two (52) dies were found to have an I_off failure. Of those 52 dies, 4 with accompanied by a physical defect, and 8 were accompanied by a drain-to-source leakage current (I_dss) failure.
+Given that the device being fabricated is a power MOSFET, the code was configured to flag any occurrence of Idss above 1e-6 A – a suitable limit for this type of device. For twenty-one (21) dies, an Idss failure was flagged as the first cause of failure. There were an additional 5 Idss failures that were accompanied by physical defects, and 2 more accompanied by both RON (on-resistance >200 mOhms) and phys (crack). 
 
-There were 40 dies with solely I_off failures, and 4 dies with I_off failures accompanied by physical defects. This suggests that physical defects did not have a profound effect on I_off failures for this wafer.
+The dies with solely Idss failures were all flagged to have likely occurred during the implantation step. Seeing that two different tools, I1 (8 dies) and I2 (13 dies), were used for implantation, a Welch’s t-test was performed using Python to help determine if one tool was more at fault than the other(?). A p-value of 0.807 (alpha 0.05) was calculated, indicating that there was not a statistically significant difference between the two tools.
 
-The wafer was divided into twelve (12) 30-degree sectors to aid in analyzing defect location. Sector #11 had the most with 11 parametric failures. Visual inspection of the the wafer map, though, did not reveal any obvious failure hot spots.  
 
-A strong positive correlation (**Pearson r = 0.89, Spearman ρ = 0.86, n = 517, p < 0.001**) was calculated between I_off and I_dss (log10-transformed values). Further investigation, though, revealed that there were only 8 dies with only I_dss and I_off failures present, so that isn’t sufficient evidence to say that the failures are linked – especially as, overall, there were more I_off failures than I_dss. 
+There were seven (7) dies with both an Idss failure and a physical defect. Of those seven dies, 2 were flagged to have cracks, 2 had oxide defects, 3 were contaminated, and 1 had a scratch. Further investigation is needed to say with certainty, but such physical defects do point to why there would be an increase in leakage current. All these physical defects increase off-state current by either creating new generation sites or lowering the breakdown voltage. Therefore, the code was designed for physical defects to have a multiplicative effect on leakage current. 
 
 Environmental and test hardware variables (ambient conditions, chemical lot, probe card) were constant for this single-wafer run; therefore, are not likely root causes for within-wafer variablity. 
 
